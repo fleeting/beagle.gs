@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*behavior: url(/scripts/boxsizing.htc);*/
+  /* IE6 & 7 Support via https://github.com/Schepp/box-sizing-polyfill */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 	DEFAULT ROW STYLES 
+	Set bottom padding according to preference */
+.row {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+/* DEFAULT COLUMN STYLES */
+.col {
+  display: block;
+  float: left;
+  width: 98%;
+  padding: 1%;
+}
+
+.trim {
+  padding: 0;
+}
+
+.centered {
+  margin: 0 auto !important;
+  float: none;
+}
+
+@media (max-width: 30rem) {
+  .small_1 {
+    width: 7.33333%;
+  }
+
+  .small_2 {
+    width: 15.66667%;
+  }
+
+  .small_3 {
+    width: 24%;
+  }
+
+  .small_4 {
+    width: 32.33333%;
+  }
+
+  .small_5 {
+    width: 40.66667%;
+  }
+
+  .small_6 {
+    width: 49%;
+  }
+
+  .small_7 {
+    width: 57.33333%;
+  }
+
+  .small_8 {
+    width: 65.66667%;
+  }
+
+  .small_9 {
+    width: 74%;
+  }
+
+  .small_10 {
+    width: 82.33333%;
+  }
+
+  .small_11 {
+    width: 90.66667%;
+  }
+
+  .small_12 {
+    width: 99%;
+  }
+}
+@media (max-width: 48rem) {
+  .medium_1 {
+    width: 7.33333%;
+  }
+
+  .medium_2 {
+    width: 15.66667%;
+  }
+
+  .medium_3 {
+    width: 24%;
+  }
+
+  .medium_4 {
+    width: 32.33333%;
+  }
+
+  .medium_5 {
+    width: 40.66667%;
+  }
+
+  .medium_6 {
+    width: 49%;
+  }
+
+  .medium_7 {
+    width: 57.33333%;
+  }
+
+  .medium_8 {
+    width: 65.66667%;
+  }
+
+  .medium_9 {
+    width: 74%;
+  }
+
+  .medium_10 {
+    width: 82.33333%;
+  }
+
+  .medium_11 {
+    width: 90.66667%;
+  }
+
+  .medium_12 {
+    width: 99%;
+  }
+}
+@media (max-width: 64rem) {
+  .large_1 {
+    width: 7.33333%;
+  }
+
+  .large_2 {
+    width: 15.66667%;
+  }
+
+  .large_3 {
+    width: 24%;
+  }
+
+  .large_4 {
+    width: 32.33333%;
+  }
+
+  .large_5 {
+    width: 40.66667%;
+  }
+
+  .large_6 {
+    width: 49%;
+  }
+
+  .large_7 {
+    width: 57.33333%;
+  }
+
+  .large_8 {
+    width: 65.66667%;
+  }
+
+  .large_9 {
+    width: 74%;
+  }
+
+  .large_10 {
+    width: 82.33333%;
+  }
+
+  .large_11 {
+    width: 90.66667%;
+  }
+
+  .large_12 {
+    width: 99%;
+  }
+}
