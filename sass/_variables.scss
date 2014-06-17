@@ -1,11 +1,9 @@
-//
-// Variables
-//
+/* Variables */
 $rem-base: 16px !default;
 $row-width: 1040px !default;
 $gutters: 2% !default;
 $total-columns: 12 !default;
 // Map dictating grid breakpoints and names for display sizes
-$breakpoints:	( 480 "small"),
-				( 768 "medium"),
-				(1024 "large");
+$breakpoints:	(480 "small"),
+				 (768 "medium"),
+				 (1024 "large");

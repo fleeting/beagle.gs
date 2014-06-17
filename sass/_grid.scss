@@ -1,23 +1,21 @@
-
-
-*{ 
+* {
 	@include box-sizing(border-box);
 	/*behavior: url(/scripts/boxsizing.htc);*/
 	/* IE6 & 7 Support via https://github.com/Schepp/box-sizing-polyfill */
 }
 
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* 	DEFAULT ROW STYLES 
+/* DEFAULT ROW STYLES
 	Set bottom padding according to preference */
 
 .row {
 	max-width: $row-width;
 	margin: 0 auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /* DEFAULT COLUMN STYLES */
@@ -41,7 +39,7 @@
 @each $b in $breakpoints {
 	@media (max-width: remCalc(nth( $b, 1 ))) {
 		@for $i from 1 through $total-columns {
-			.#{nth( $b, 2 )}_#{$i} { 
+			.#{nth( $b, 2 )}_#{$i} {
 				width: gridCalc($i, $total-columns, $gutters);
 			}
 		}
